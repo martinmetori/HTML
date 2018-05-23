@@ -1,6 +1,6 @@
-body{
+				body{
 				margin:0;
-				background-image:url(i3.jpeg);
+				background-image:url(image.jpg);
 				}
 				header{
 				background: black;
@@ -66,16 +66,16 @@ body{
 				cursor:pointer;
 				outline:none;
 				}
-				.vk{
+				.3{
 				background-image:url('img2.jpg');
 				width:33%;
 				
 				}
-				.twitter{
+				.2{
 				background-image:url('img.jpg');
 				width:33%;
 				}
-				.insta{
+				.1{
 				background-image:url('img2.jpg');
 				width:33%;
 				}
