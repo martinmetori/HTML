@@ -1,0 +1,84 @@
+	body{
+				margin:0;
+				background-image:url('img2.jpg');
+				}
+				header{
+				background: black;
+				color: white;
+				padding:8px 0px 6px 40px;
+				height:45px;
+				}
+				header h1{
+				display: inline;
+				font-family: 'Oswald' , sans-serif;
+				font-weight:400;
+				font-size: 32px;
+				float: left;
+				margin-top: 0px;
+				margin-right: 10px;
+				}
+				nav ul{
+				display: inline;
+				padding: 0px;
+				float:left;
+				}
+				nav ul li {
+				display: inline-block;
+				list-style-type:none;
+				color:white;
+				float: left;
+				margin-left: 10px;
+				}
+				nav ul li a{
+				color:white;
+				text-decoration: none;
+				}
+				#nav{
+				font-family:'Montserrat',sans-serif;
+				}
+				.active{
+				background-color: red;
+				padding: 30px 10px 16px 10px;
+				
+				}
+				.divider{
+				background-color: red;
+				height: 5px;
+				}
+				.activeblack:hover{
+				background-color:red;
+				}
+			.inwesko{
+				font-size:45px;
+				text-align:center;
+				font-family:'Oswald' , sans-serif;
+				background-color: rgba(0,0,0,0.9);
+				color:white;
+				}
+				table{
+				width:800px;
+				margin:auto;
+				text-align:center;
+				table-layout:fixed;
+				}
+				table , tr , th , td {
+				padding:20px;
+				color:white;
+				border:1px solid #080808;
+				border-collapse:collapse;
+				font-size:18px;
+				font-family:Arial;
+				background:linear-gradient(top, #3c3c3c 0%, #222222 100%);
+				background:-webkit-linear-gradient(top , #3c3c3c 0%, black 100%);
+				cursor:pointer;
+				}
+				td:hover{
+				background:red;
+				}
+				.i2{
+				font-size:21px;
+				background-color: rgba(0,0,0,0.9);
+				color:white;
+				font-family:'Oswald' , sans-serif;
+				text-align:center;
+				}
