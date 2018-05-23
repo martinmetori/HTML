@@ -1,0 +1,81 @@
+body{
+				margin:0;
+				background-image:url(i3.jpeg);
+				}
+				header{
+				background: black;
+				color: white;
+				padding:8px 0px 6px 40px;
+				height:45px;
+				}
+				header h1{
+				display: inline;
+				font-family: 'Oswald' , sans-serif;
+				font-weight:400;
+				font-size: 32px;
+				float: left;
+				margin-top: 0px;
+				margin-right: 10px;
+				}
+				nav ul{
+				display: inline;
+				padding: 0px;
+				float:left;
+				}
+				nav ul li {
+				display: inline-block;
+				list-style-type:none;
+				color:white;
+				float: left;
+				margin-left: 10px;
+				}
+				nav ul li a{
+				color:white;
+				text-decoration: none;
+				}
+				#nav{
+				font-family:'Montserrat',sans-serif;
+				}
+				.active{
+				background-color: red;
+				padding: 30px 10px 16px 10px;
+				
+				}
+				.divider{
+				background-color: red;
+				height: 5px;
+				}
+				.activeblack:hover{
+				background-color:red;
+				}
+				.inwesko{
+				font-size:45px;
+				text-align:center;
+				font-family:'Oswald' , sans-serif;
+				background-color: rgba(0,0,0,0.9);
+				color:white;
+				}
+				button{
+				margin-left:0;
+				color:white;
+				border:none;
+				height:300;
+				width:300;
+				font-size:1.4em;
+				padding:0.1em;
+				cursor:pointer;
+				outline:none;
+				}
+				.vk{
+				background-image:url('img2.jpg');
+				width:33%;
+				
+				}
+				.twitter{
+				background-image:url('img.jpg');
+				width:33%;
+				}
+				.insta{
+				background-image:url('img2.jpg');
+				width:33%;
+				}
