@@ -1,0 +1,91 @@
+	body{
+				margin:0;
+				background-image:url(image.jpg);
+				}
+				header{
+				background: black;
+				color: white;
+				padding:8px 0px 6px 40px;
+				height:45px;
+				}
+				header h1{
+				display: inline;
+				font-family: 'Oswald' , sans-serif;
+				font-weight:400;
+				font-size: 32px;
+				float: left;
+				margin-top: 0px;
+				margin-right: 10px;
+				}
+				nav ul{
+				display: inline;
+				padding: 0px;
+				float:left;
+				}
+				nav ul li {
+				display: inline-block;
+				list-style-type:none;
+				color:white;
+				float: left;
+				margin-left: 10px;
+				}
+				nav ul li a{
+				color:white;
+				text-decoration: none;
+				}
+				#nav{
+				font-family:'Montserrat',sans-serif;
+				}
+				.active{
+				background-color: red;
+				padding: 30px 10px 16px 10px;
+				
+				}
+				.divider{
+				background-color: red;
+				height: 5px;
+				}
+				.activeblack:hover{
+				background-color:red;
+				}
+				.inwesko{
+				font-size:30px;
+				text-align:center;
+				font-family:'Oswald' , sans-serif;
+				background-color: rgba(0,0,0,0.9);
+				color:white;
+				}
+				.players ul,
+				.players li{
+				margin:0;
+				padding:0;
+				list-style-type:none;
+				}
+				.players li{
+				display:inline-block;
+				width:300px;
+				position:relative;
+				}
+				.players img{
+				max-width:100%;
+				display:block;
+				}
+				.descr{
+				position:absolute;
+				left:0;
+				width:100%;
+				height:100%;
+				background-color:rgba(0,0,0,.5);
+				color:#fff;
+				text-align:center;
+				opacity:0;
+				transform:scale(0);
+				-webkit-transition: all .5s;
+				-o-transition: all .5s;
+				transition: all .5s;
+				}
+				.players li:hover .descr{
+				opacity:1;
+				top:0;
+				transform:scale(1);
+				}
