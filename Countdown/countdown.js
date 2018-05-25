@@ -29,10 +29,9 @@ CountdownTimer.prototype={
 }
 function CDT(){
 
- // Set countdown limit
+
  var tl = new Date('2018/09/01 11:00:00');
 
- // You can add time's up message here
  var timer = new CountdownTimer('CDT',tl,'<span class="number-wrapper"><div class="line"></div><span class="number end">Time is up!</span></span>');
  timer.countDown();
 }
