@@ -1,4 +1,19 @@
-var me=this;
+function CountdownTimer(elm,tl,mes){
+ this.initialize.apply(this,arguments);
+}
+CountdownTimer.prototype={
+ initialize:function(elm,tl,mes) {
+  this.elem = document.getElementById(elm);
+  this.tl = tl;
+  this.mes = mes;
+ },countDown:function(){
+  var timer='';
+  var today=new Date();
+  var day=Math.floor((this.tl-today)/(24*60*60*1000));
+  var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+  var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+  var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+  var me=this;
 
   if( ( this.tl - today ) > 0 ){
    timer += '<span class="number-wrapper"><div class="line"></div><div class="caption">DAYS</div><span class="number day">'+day+'</span></span>';
@@ -14,9 +29,10 @@ var me=this;
 }
 function CDT(){
 
+ // Set countdown limit
+ var tl = new Date('2018/09/01 11:00:00');
 
- var tl = new Date('2018/09/01 10:00:00');
-
+ // You can add time's up message here
  var timer = new CountdownTimer('CDT',tl,'<span class="number-wrapper"><div class="line"></div><span class="number end">Time is up!</span></span>');
  timer.countDown();
 }
