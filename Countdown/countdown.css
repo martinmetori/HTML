@@ -1,20 +1,7 @@
 body {
-  background-image:url('.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-color: #fff;
-font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
-}
-
-.bg-gradient {
-    position: fixed;
-    width: 1000px;
-    height: 1000px;
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-    margin: -500px 0 0 -500px;
-    background: url('../images/bg-gradient.png') no-repeat center;
+    background:black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container {
@@ -28,10 +15,9 @@ font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
     margin: -200px 0 0 -400px;
 }
     
-h1,
-h2 {
+h1 {
     margin: 0;
-    color: #eee;
+    color: white;
     -moz-text-shadow: 0 3px 3px #000000;
     -webkit-text-shadow: 0 3px 3px #000000;
     text-shadow: 0 3px 3px #000000;
@@ -40,16 +26,12 @@ h2 {
 h1 {
     font-size: 60px;
     margin: 0 0 10px;
-    line-height: 1;
-}
-
-h2 {
-    font-size: 18px;
+    
 }
 
 #CDT {
     font-size: 60px;
-    color: #eee;
+    color: white;
     margin: 70px 0 100px;
     font-weight: bold;
 }
@@ -64,24 +46,19 @@ h2 {
 
 #CDT .number {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
-   background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
-    background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
-    background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
-    background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
-    background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
-    
+    background: #000
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0 12px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+   
 }
-       
 #CDT .line {
     position: absolute;
-    width: 100%;
-    height: 1px;
-    top: 52%;
-    left: 0;
-}
-       
+}    
 .caption {
    font-size: 12px;
    position: absolute;
@@ -89,5 +66,5 @@ h2 {
    left: 0;
    text-align: center;
    width: 100%;
-   color: #777;
-}
+   color: white;
+} 
