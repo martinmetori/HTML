@@ -47,7 +47,7 @@
 				.activeblack:hover{
 				background-color:red;
 				}
-				.ttx{
+				.fwimagel{
 			background-repeat: no-repeat;
 			background-size: cover;
 			background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5));
@@ -58,7 +58,6 @@
 			text-align:center;
    
 		animation: slide 40s infinite;
-	
 				}
 				@keyframes slide{
 			0%{
